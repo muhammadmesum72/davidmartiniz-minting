@@ -17,19 +17,20 @@ const Home = () => {
     <>
       <div className="w-full">
         {isLightSwitch ? (
-          <div className="">
-            <div className="absolute top-28 md:top-[10rem] md:w-1/2 mx-auto left-0 right-0 flex items-center justify-around px-12">
+          <div className="relative md:static">
+            <img src={LightRoom} alt="" className="relative h-full w-full duration-500 ease-in-out" />
+
+            <div className="absolute top-20 md:top-[10rem] w-2/3 md:w-1/2 mx-auto left-0 right-0 flex items-center justify-around px-12">
               <a href="https://docs.communiteez.xyz" target="_blank">
-                <img src={WhitePaperIcon} alt="" className="w-16 md:w-19" />
+                <img src={WhitePaperIcon} alt="" className="w-9 md:w-20" />
               </a>
               <a href="https://twitter.com/communiteez" target="_blank">
-                <AiOutlineTwitter className=" text-5xl md:text-6xl cursor-pointer text-blue-500 " />
+                <AiOutlineTwitter className=" text-2xl md:text-6xl cursor-pointer text-blue-500 " />
               </a>
               <a href="#" target="_blank">
-                <FaDiscord className=" text-5xl md:text-6xl cursor-pointer text-indigo-600 " />
+                <FaDiscord className=" text-2xl md:text-6xl cursor-pointer text-indigo-600 " />
               </a>
             </div>
-            <img src={LightRoom} alt="" className="h-full w-full duration-500 ease-in-out" />
           </div>
         ) : (
             <div>
