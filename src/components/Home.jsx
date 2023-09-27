@@ -18,9 +18,9 @@ const Home = () => {
       <div className="w-full">
         {isLightSwitch ? (
           <div className="">
-            <div className="absolute top-28 md:top-48 md:w-1/2 mx-auto left-0 right-0 flex items-center justify-around px-12">
+            <div className="absolute top-28 md:top-[10rem] md:w-1/2 mx-auto left-0 right-0 flex items-center justify-around px-12">
               <a href="https://docs.communiteez.xyz" target="_blank">
-                <img src={WhitePaperIcon} alt="" className="w-16 md:w-20" />
+                <img src={WhitePaperIcon} alt="" className="w-16 md:w-19" />
               </a>
               <a href="https://twitter.com/communiteez" target="_blank">
                 <AiOutlineTwitter className=" text-5xl md:text-6xl cursor-pointer text-blue-500 " />
