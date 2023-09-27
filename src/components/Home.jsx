@@ -20,7 +20,7 @@ const Home = () => {
           <div className="relative md:static">
             <img src={LightRoom} alt="" className="relative h-full w-full duration-500 ease-in-out" />
 
-            <div className="absolute top-[20%] md:top-[10rem] w-2/3 md:w-1/2 mx-auto left-0 right-0 flex items-center justify-around px-12">
+            <div className="absolute top-[25%] md:top-[25%] w-2/3 md:w-1/2 mx-auto left-0 right-0 flex items-center justify-around px-12">
               <a href="https://docs.communiteez.xyz" target="_blank">
                 <img src={WhitePaperIcon} alt="" className="w-9 md:w-20" />
               </a>
