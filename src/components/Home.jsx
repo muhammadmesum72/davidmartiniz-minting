@@ -17,19 +17,19 @@ const Home = () => {
           <div className="relative md:static">
             <img
               src={LightRoom}
-              alt=""
+              alt="Room"
               className="relative h-full w-full duration-500 ease-in-out"
             />
 
             <div className="absolute top-[25%] md:top-[26%] w-2/3 md:w-1/2 mx-auto left-0 right-0 flex items-center justify-around px-12">
               <a href="https://docs.communiteez.xyz" target="_blank">
-                <img src={WhitePaperIcon} alt="" className="w-7 md:w-16 " />
+                <img src={WhitePaperIcon} alt="WhitePaper" className="w-7 md:w-16 " />
               </a>
               <a href="https://twitter.com/communiteez" target="_blank">
-                <img src={Twitter} alt="" className="w-7 md:w-16 " />
+                <img src={Twitter} alt="Twitter" className="w-7 md:w-16 " />
               </a>
               <a href="#" target="_blank">
-                <img src={Discord} alt="" className="w-7 md:w-16 " />
+                <img src={Discord} alt="Discord" className="w-7 md:w-16 " />
               </a>
             </div>
           </div>
@@ -37,7 +37,7 @@ const Home = () => {
           <div>
             <img
               src={DarkRoom}
-              alt=""
+              alt="Room"
               className="h-full w-full duration-500 ease-in-out"
             />
           </div>
@@ -61,9 +61,9 @@ const Home = () => {
             }`}
           >
             {isLightSwitch ? (
-              <img src={DayImg} alt="" />
+              <img src={DayImg} alt="LightMode" />
             ) : (
-              <img src={MoonImg} alt="" />
+              <img src={MoonImg} alt="DarkMode" />
             )}
           </div>
         </div>
