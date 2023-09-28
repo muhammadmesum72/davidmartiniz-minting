@@ -5,7 +5,9 @@ import { AiOutlineTwitter } from "react-icons/ai";
 import { FaDiscord } from "react-icons/fa";
 import MoonImg from "../assets/moon.png";
 import DayImg from "../assets/day.png";
-import WhitePaperIcon from "../assets/white-paper.png";
+import WhitePaperIcon from "../assets/white paper.png";
+import Discord from "../assets/discord.png";
+import Twitter from "../assets/twitter.png";
 
 const Home = () => {
   const [isLightSwitch, setIsLightSwitch] = useState(false);
@@ -20,15 +22,15 @@ const Home = () => {
           <div className="relative md:static">
             <img src={LightRoom} alt="" className="relative h-full w-full duration-500 ease-in-out" />
 
-            <div className="absolute top-[25%] md:top-[25%] w-2/3 md:w-1/2 mx-auto left-0 right-0 flex items-center justify-around px-12">
+            <div className="absolute top-[25%] md:top-[26%] w-2/3 md:w-1/2 mx-auto left-0 right-0 flex items-center justify-around px-12">
               <a href="https://docs.communiteez.xyz" target="_blank">
-                <img src={WhitePaperIcon} alt="" className="w-7 md:w-20" />
+                <img src={WhitePaperIcon} alt="" className="w-7 md:w-12 " />
               </a>
               <a href="https://twitter.com/communiteez" target="_blank">
-                <AiOutlineTwitter className=" text-xl md:text-6xl cursor-pointer text-blue-500 " />
+                <img src={Twitter} alt="" className="w-7 md:w-12 " />
               </a>
               <a href="#" target="_blank">
-                <FaDiscord className=" text-xl md:text-6xl cursor-pointer text-indigo-600 " />
+                <img src={Discord} alt="" className="w-7 md:w-12 " />
               </a>
             </div>
           </div>
@@ -44,6 +46,7 @@ const Home = () => {
         className="absolute bottom-12 left-0 right-0 text-center mx-auto w-fit"
       >
         {/* <img src={} alt="" /> */}
+        
         <div
           className={` w-32 h-16 flex items-center  rounded-full p-2 cursor-pointer ${
             isLightSwitch ? "bg-gray-700" : "bg-gray-700"
