@@ -23,13 +23,13 @@ const Home = () => {
 
             <div className="absolute top-[25%] md:top-[26%] w-2/3 md:w-1/2 mx-auto left-0 right-0 flex items-center justify-around px-12">
               <a href="https://docs.communiteez.xyz" target="_blank">
-                <img src={WhitePaperIcon} alt="WhitePaper" className="w-7 md:w-16 " />
+                <img src={WhitePaperIcon} alt="WhitePaper" className="w-7 md:w-20 " />
               </a>
               <a href="https://twitter.com/communiteez" target="_blank">
-                <img src={Twitter} alt="Twitter" className="w-7 md:w-16 " />
+                <img src={Twitter} alt="Twitter" className="w-7 md:w-20 " />
               </a>
               <a href="#" target="_blank">
-                <img src={Discord} alt="Discord" className="w-7 md:w-16 " />
+                <img src={Discord} alt="Discord" className="w-7 md:w-20 " />
               </a>
             </div>
           </div>
