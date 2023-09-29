@@ -25,7 +25,7 @@ const Home = () => {
               <a href="https://docs.communiteez.xyz" target="_blank">
                 <img src={WhitePaperIcon} alt="WhitePaper" className="w-7 md:w-20 " />
               </a>
-              <a href="https://twitter.com/communiteez" target="_blank">
+              <a href="https://twitter.com/communi_teez" target="_blank">
                 <img src={Twitter} alt="Twitter" className="w-7 md:w-20 " />
               </a>
               <a href="#" target="_blank">
