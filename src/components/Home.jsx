@@ -28,7 +28,7 @@ const Home = () => {
               <a href="https://twitter.com/communi_teez" target="_blank">
                 <img src={Twitter} alt="Twitter" className="w-7 md:w-20 " />
               </a>
-              <a href="#" target="_blank">
+              <a href="https://discord.com/invite/C2zGrTSyM7" target="_blank">
                 <img src={Discord} alt="Discord" className="w-7 md:w-20 " />
               </a>
             </div>
